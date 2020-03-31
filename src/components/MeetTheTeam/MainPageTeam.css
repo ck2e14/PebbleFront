@@ -1,0 +1,22 @@
+.top-div-teampage {
+  
+}
+
+.tagline-text {
+   position: static;
+   padding-top: 1%;
+   font-size: 45px;
+}
+
+
+.tagline-followup-text {
+   font-size: 20px;
+   font-stretch: expanded;
+}
+
+@media (max-width: 800px) {
+   .tagline-text {
+      font-size: 30px;
+      scroll-padding-top: 30px !important;
+   }
+}
