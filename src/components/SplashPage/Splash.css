@@ -1,7 +1,7 @@
 .splash-background {
    min-height: 100vh;
    background-color: rgba(0, 234, 255, 0.795);
-   background: linear-gradient(233deg, #4f94a0, #65cecebd, #78b8c8);
+   background: linear-gradient(233deg, rgb(43, 124, 161), #4895c8bd, #78b8c8);
    background-size: 600% 600%;
    animation-name: background-anim;
    animation-duration: 15s;
