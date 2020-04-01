@@ -1,10 +1,10 @@
 .container {
    position: relative;
    width: 50%;
-   float:left; 
-   display:inline; 
+   display:inline-block;
    width: 25%;
-   margin-right: 0.7rem;
+   /* margin-right: 0.7rem; */
+   margin-left: 8.2rem;
  }
  
  .image {

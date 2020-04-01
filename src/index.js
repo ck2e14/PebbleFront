@@ -6,18 +6,18 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route } from "react-router-dom";
 import Splash from './components/SplashPage/Splash';
 import MainPageTeam from './components/MeetTheTeam/MainPageTeam'
+import SuccessStories from './components/SuccessStories/SuccessStoriesContainer';
+import OurMission from './components/OurMission/OurMissionContainer';
 
 const app = (
   <BrowserRouter>
     <Route exact path='/' component={Splash} /> 
     <Route path='/home' component={App} />
-    <Route path="/team" component={MainPageTeam} /> 
+    <Route path="/team" component={MainPageTeam} />
+    <Route path='/success-stories' component={SuccessStories} /> 
+    <Route path='/mission' component={OurMission} />
   </BrowserRouter>
 );
 
 ReactDOM.render( app, document.getElementById('root') );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();

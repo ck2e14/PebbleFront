@@ -33,19 +33,9 @@ render(){
 
   return (
     <div style={{height: '100%'}}>
-  
-
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-
         <SideDrawer show={this.state.sideDrawerOpen}/>
-
         {backdrop}
-
-        {/* <Route exact path="/" component={Splash}/> */}
-
-      
-        {/* <Route path="/team" component={MainPageTeam} />  */}
-
     </div>
   );
 }

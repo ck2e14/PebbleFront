@@ -10,10 +10,13 @@ export default class MainPageTeam extends React.Component {
          <>
             <Toolbar/>
             <div className='top-div-teampage' style={{position:'fixed', top: '75px', fontSize: '50px'}}> 
-                  <div className='tagline-text'> Experts in our Field         <span className='tagline-followup-text'> Helping you to achieve the right balance for your business.</span> </div>
+                  <div className='tagline-text'> 
+                     Experts in our Field 
+                     <span className='tagline-followup-text'> Helping you to achieve the right balance for your business.</span> 
+                  </div>
                <PersonCard/>   
                <PersonCard/>
-               <PersonCard/>
+               <PersonCard/>  
             </div>
          </>
       )
