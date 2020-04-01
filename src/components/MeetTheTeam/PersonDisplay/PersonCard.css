@@ -1,7 +1,9 @@
 .container {
    position: relative;
    width: 50%;
-   float:left; display:inline; width: 25%;
+   float:left; 
+   display:inline; 
+   width: 25%;
    margin-right: 0.7rem;
  }
  
