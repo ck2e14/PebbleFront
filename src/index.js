@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Route } from "react-router-dom";
+import Splash from './components/SplashPage/Splash';
+import MainPageTeam from './components/MeetTheTeam/MainPageTeam'
 
 const app = (
   <BrowserRouter>
-    <App/>
+    <Route exact path='/' component={Splash} /> 
+    <Route path='/home' component={App} />
+    <Route path="/team" component={MainPageTeam} /> 
   </BrowserRouter>
 );
 

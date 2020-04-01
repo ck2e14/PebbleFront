@@ -4,7 +4,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer'
 import Backdrop from './components/Backdrop/Backdrop';
 import FrontPage from './components/FrontPage/FrontPage';
 import MainPageTeam from './components/MeetTheTeam/MainPageTeam'
-
+import Splash from './components/SplashPage/Splash';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 
 
@@ -41,10 +41,10 @@ render(){
 
         {backdrop}
 
-        <Route exact path="/" component={FrontPage}/>
+        {/* <Route exact path="/" component={Splash}/> */}
 
       
-        <Route path="/team" component={MainPageTeam} /> 
+        {/* <Route path="/team" component={MainPageTeam} />  */}
 
     </div>
   );
